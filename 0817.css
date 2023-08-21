@@ -1,0 +1,32 @@
+body {
+    font-family: 標楷體;
+    font-size: 25px;
+    margin: 0px auto;
+    width: 500px;
+    text-align: center;
+}
+
+body div {
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.username {
+    color: blue;
+}
+
+.nickname {
+    color: goldenrod;
+}
+
+.comfirm {
+    background-color: rgb(255, 140, 0);
+}
+
+input:invalid {
+   background-color: red;
+}
