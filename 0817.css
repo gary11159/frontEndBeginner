@@ -1,12 +1,56 @@
 body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #18c3f3;
+    margin: 0;
+    width: 100%;
+    height: 30px;
+}
+
+@media screen and (max-width:2560px) {
+    .link {
+        text-align: right;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .burger {
+        display: none;
+    }
+}
+@media screen and (max-width:1920px) {
+    .link {
+        text-align: right;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .burger {
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .link > a{
+        display: none;
+    }
+    .burger {
+        display: flex;
+        justify-content: right;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+div {
     font-family: 標楷體;
     font-size: 25px;
     margin: 0px auto;
     width: 500px;
     text-align: center;
-}
-
-body div {
     padding: 10px;
 }
 
@@ -28,5 +72,5 @@ body div {
 }
 
 input:invalid {
-   background-color: red;
+    background-color: red;
 }
